@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: consolas;
+    min-width: 400px;
+}
+ul{
+    list-style: none;
+}
+
+li {
+    margin-left: 30px;
+    color: #46b8ff;
+}
+li a {
+    text-decoration: none;
+    color: #46b8ff;
+    transition: color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0699f5;
+}
+
+#Input {
+    display: block;
+    margin-bottom: 20px;
+    font-family: consolas;
+    width: 320px;
+    height: 24px;
+    border: 2px solid #0699f5;
+    font-size: 17px;
+    border: 3px solid #0699f5;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-indent: 5px;
+    margin-left: 40px;
+}
+
+#Delete {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(244, 244, 244);
+    border: 2px solid #1DA1F2;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: border,color, background-color 0.3s; 
+    border-radius: 4px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#Delete:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1DA1F2;;
+    border: none;
+}
+
+#Input:focus {
+    outline: 0.1px solid #1DA1F2;
+}
+
+
+#Save,#SaveTab {
+    font-family: consolas;
+    width: 100px;
+    height: 35px;
+    background-color: #1DA1F2;
+    font-size: 16px;
+    color: rgb(215, 215, 215);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color, color 0.3s;
+    margin-left: 64px;
+}
+
+
+#Save:hover,#SaveTab:hover {
+    background-color: #0699f5;
+    color:	white;
+}
+
+#Unordered {
+    display: flex;
+    flex-direction: column;
+}
